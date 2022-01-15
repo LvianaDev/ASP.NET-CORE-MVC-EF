@@ -1,15 +1,17 @@
 ﻿@model GerenciadorCartoesCredito.Models.Cartao
 
 @{
-    ViewData["Title"] = "Novo Cartao";
+    ViewData["Title"] = "Atualizar Cartao" + Model.NumeroCartao;
 }
 
-<h4 class="alert alert-success">Novo Cartao</h4>
+
+<h6 class="alert alert-primary">Atualizar cartão @Model.NumeroCartao</h6>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="NovoCartao">
+        <form asp-action="AtualizarCartao">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="CartaoId" />
             <div class="form-group">
                 <label asp-for="NomeBanco" class="control-label col-form-label-sm"></label>
                 <input asp-for="NomeBanco" class="form-control form-control-sm" />
@@ -26,9 +28,16 @@
                 <span asp-validation-for="Limite" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Salvar" class="btn btn-success btn-sm" /> &emsp;
-                <a asp-action="Index" class="btn btn-link btn-sm">Voltar</a>
+                <input type="submit" value="Atualizar" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-link btn-sm" >Voltar</a>
             </div>
         </form>
     </div>
 </div>
+
+<div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
