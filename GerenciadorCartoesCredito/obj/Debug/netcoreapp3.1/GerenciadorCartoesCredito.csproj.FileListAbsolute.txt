@@ -156,3 +156,5 @@ C:\Users\lucas\Desktop\GerenciadorCartoesCredito\GerenciadorCartoesCredito\Geren
 C:\Users\lucas\Desktop\GerenciadorCartoesCredito\GerenciadorCartoesCredito\GerenciadorCartoesCredito\obj\Debug\netcoreapp3.1\Razor\Views\Cartoes\NovoCartao.cshtml.g.cs
 C:\Users\lucas\Desktop\GerenciadorCartoesCredito\GerenciadorCartoesCredito\GerenciadorCartoesCredito\obj\Debug\netcoreapp3.1\Razor\Views\Cartoes\ListagemCartoes.cshtml.g.cs
 C:\Users\lucas\Desktop\GerenciadorCartoesCredito\GerenciadorCartoesCredito\GerenciadorCartoesCredito\obj\Debug\netcoreapp3.1\Razor\Views\Cartoes\AtualizarCartao.cshtml.g.cs
+C:\Users\lucas\Desktop\GerenciadorCartoesCredito\GerenciadorCartoesCredito\GerenciadorCartoesCredito\obj\Debug\netcoreapp3.1\Razor\Views\Gastos\ListagemGastos.cshtml.g.cs
+C:\Users\lucas\Desktop\GerenciadorCartoesCredito\GerenciadorCartoesCredito\GerenciadorCartoesCredito\obj\Debug\netcoreapp3.1\Razor\Views\Gastos\NovoGasto.cshtml.g.cs
